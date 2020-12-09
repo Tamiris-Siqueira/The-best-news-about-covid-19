@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Dark Seed';
+    src: url('../fonte/Dark\ Seed.otf');
+}
+.itemNav, #titulo, h3{
+    color: black;
+}
+.header{
+    background-color: #F5F5F5;
+    margin-bottom: 2%;
+    display: flex;
+    box-shadow: gray 0px 3px 5px;
+    font-family: 'Dark Seed';
+}
+#titulo{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 1%;
+    text-align: center;
+    text-decoration: unset
+}
+#imgCovid{
+    width: 100%;
+}
+#introducao{
+    display: inline-flex;
+}
+body{
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-image: url('../imagem/background.jpg');
+    background-size: contain;
+    font-family: sans-serif;
+}
+#itens{
+    margin-left: 75%;
+    margin-top: 15px;
+}
+.pula{
+    margin-left: 40%;
+    width: 250px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#conheca, h4, .subtitulo{
+    text-align: center;
+}
+#imgAnimais, #imgVacina, iframe, .paragrafos{
+    margin-right: 27%;
+    margin-left: 27%;
+    font-size: 20px;
+}
+iframe{
+    width: 47%;
+    height: 350px;
+}
+.footer{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: gray 0px 0px 5px 0px;
+    font-family: 'Dark Seed';
+}
+#fundo{
+    background-color: white;
+    box-shadow: gray 5px 5px 8px;
+}
+#tamiris{
+    width: 30%;
+    margin-left: 35%;
+}
+.card-sobre, .formulario, .landing{
+    text-align: start;
+    width: 33%;
+    margin-right: 31%;
+    margin-left: 31%;
+    background-color: #F5F5F5;
+    box-shadow: gray 3px 3px 2px;
+    padding: 1%;
+}
+.sobremim{
+    font-size: 18px;
+}
+#nomecompleto, #email{
+    width: 95%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+label{
+    font-size: 17px;
+    justify-content: space-between;
+}
+#mensagem{
+    font-size: 17px;
+    width: 95%;
+    height: 100px;
+    resize: none;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+#meunome, #data{
+    font-family: 'Dark Seed';
+}
+#btn-saber, #enviar, #conhecer{
+    width: 30%;
+    height: 30px;
+    border-radius: 8%;
+}
+#btn-saber{
+    margin-bottom: 3%;
+}
+#enviar{
+    margin-top: 2%;
+}
+.saber-mais{
+    margin-left: 40%;
+}
+.spreaker-player{
+    height: 170px;
+}
+.links{
+    margin-right: 17%;
+    font-size: 17px;
+    margin-left: 17%;
+}
